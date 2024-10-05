@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                       // Good for modern browsers
+    "module": "ESNext",                       // Use ES modules for browser compatibility
+    "moduleResolution": "node",               // Keeps node-style resolution for third-party libraries
+    "sourceMap": true,                        // Helpful for debugging
+    "strict": true,                           // Enforces strict type checking
+    "outDir": "./dist",                       // Output directory for compiled JavaScript
+    "esModuleInterop": true,                  // Allow default imports from non-ES module systems
+    "forceConsistentCasingInFileNames": true, // Enforce file name casing consistency
+    "skipLibCheck": true                      // Skip type checking of declaration files for faster builds
+  },
+  "include": ["src/**/*.ts"],                 // Include all TypeScript in the src folder
+  "exclude": ["node_modules"]                 // Exclude node_modules from compilation
+}
